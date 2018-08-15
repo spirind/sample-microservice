@@ -17,7 +17,7 @@ node {
         stage('Image') {
             dir ('customer-service') {
                 def app = docker.build "localhost:5000/customer-service:${env.version}"
-                app.push()
+                //app.push()
             }
         }
 
