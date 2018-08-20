@@ -7,5 +7,6 @@ eureka:
   client:
     registerWithEureka: false
     fetchRegistry: false
+    defaultZone: http://registration:8761/eureka/
   server:
     enableSelfPreservation: false  
