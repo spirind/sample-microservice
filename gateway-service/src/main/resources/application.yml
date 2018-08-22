@@ -14,10 +14,10 @@ zuul:
   routes:
     account: 
       path: /account/**
-      serviceId: account-service
+      serviceId: account
     customer: 
       path: /customer/**
-      serviceId: customer-service          
+      serviceId: customer
 
 ribbon:
   eureka:
